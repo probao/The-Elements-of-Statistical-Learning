@@ -1,6 +1,8 @@
 # Charpter 2 Overview of Supervised Learning
-## 2.2V ariable Types and Terminology
-------
+## 2.2 Variable Types and Terminology
 This distinction in output type has led to a naming convention for the<br>
 prediction tasks: `regression` when we predict quantitative outputs, and<br> 
 `classification` when we predict qualitative outputs.<br>
+
+*X*——an input variable/a vector
+*X*<sub>*j*
