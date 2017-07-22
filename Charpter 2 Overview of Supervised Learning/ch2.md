@@ -6,5 +6,7 @@ prediction tasks: `regression` when we predict quantitative outputs, and<br>
 **Notation**<br>
 *X*--n input variable/a vector<br>
 *X*<sub>*j*</sub>--components in *X*<br>
-*Y*--quantitative outputs
-
+*Y*--quantitative outputs<br>
+*G*--qualitative outputs
+*x*<sub>*i*</sub>--the ith observed value of *X*<br>
+**X**--N X p matrix, N input p-vectors *x*<sub>*i*</sub>, *i*=1,2,...,N
