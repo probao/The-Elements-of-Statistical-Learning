@@ -5,6 +5,6 @@ prediction tasks: `regression` when we predict quantitative outputs, and<br>
 `classification` when we predict qualitative outputs.<br>
 **Notation**<br>
 *X*--n input variable/a vector<br>
-*X*<sub>*j*<sub>--components in *X*<br>
+*X*<sub>*j*</ sub>--components in *X*<br>
 *Y*--quantitative outputs
 
