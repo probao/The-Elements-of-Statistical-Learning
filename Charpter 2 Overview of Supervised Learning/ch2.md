@@ -1,1 +1,1 @@
-# Charpter Overview of Supervised Learning
+# Charpter 2 Overview of Supervised Learning
