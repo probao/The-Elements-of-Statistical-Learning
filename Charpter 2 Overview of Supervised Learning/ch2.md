@@ -13,7 +13,7 @@ prediction tasks: `regression` when we predict quantitative outputs, and<br>
 Since all vectors are assumed to be column vectors, the *i*th row of **X** is *x*<sup>T</sup><sub>i</sub>, the vector transpose of *x*<sub>i</sub>.
 ## 2.3 Two Simple Approaches to Prediction: Least Squares and Nearest Neighbors
 ### 2.3.1 Linear Models and Least Squares
-
-
+Given a vector of inputs *X*<sup>T</sup> = (X1,X2, . . . ,Xp), we predict the output *Y*  via the model
+<img src="http://latex.codecogs.com/gif.latexx?\%20\hat{Y}=\hat{\beta_o}+%20\sum_{j=1}^{p}{X_j}{\hat\beta_j}">
 
 
