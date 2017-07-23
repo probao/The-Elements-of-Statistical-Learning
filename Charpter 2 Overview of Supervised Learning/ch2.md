@@ -24,6 +24,6 @@ We pick the coefficients β to minimize the residual sum of squares(RSS)<br>
 Differentiating w.r.t. *β* we get the *normal equations*<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20X^T(y-X\beta)=0"><br>
 If X<sup>T</sup>X is nonsingular, then the unique solution is given by
-
+<img src="http://latex.codecogs.com/gif.latexx?\%20\hat{\beta}=(X^TX)^{-1}X^Ty"><br>
 
 
