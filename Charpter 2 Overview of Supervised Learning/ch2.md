@@ -18,5 +18,6 @@ Given a vector of inputs *X*<sup>T</sup> = (X1,X2, . . . ,Xp), we predict the ou
 It is convenient to include the constant variable 1 in *X*, and then write the linear model in vector form
 as an inner product<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20\hat{Y}=X^T\hat{\beta}"><br>
-
-
+We pick the coefficients β to minimize the residual sum of squares(RSS)<br>
+<img src="http://latex.codecogs.com/gif.latexx?\%20RSS(\beta)=%20\sum_{i=1}^{N}(y_i-x_i^T\beta)^2"><br>
+<img src="http://latex.codecogs.com/gif.latexx?\%20RSS(\beta)=%20(y-X\beta)^T(y-X\beta)"><br>
