@@ -25,10 +25,10 @@ Differentiating w.r.t. *β* we get the *normal equations*<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20X^T(y-X\beta)=0"><br>
 If X<sup>T</sup>X is nonsingular, then the unique solution is given by<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20\hat{\beta}=(X^TX)^{-1}X^Ty"><br>
-<font color=blue>Scenario 1</font>: The training data in each class were generated from bivariate
+<font color=#0099ff>Scenario 1</font>: The training data in each class were generated from bivariate
 Gaussian distributions with uncorrelated components and different
 means.<br>
-<font color=blue>Scenario 2</font>: The training data in each class came from a mixture of 10 low-
+<font color=#0099ff>Scenario 2</font>: The training data in each class came from a mixture of 10 low-
 variance Gaussian distributions, with individual means themselves
 distributed as Gaussian.<br>
 ### 2.3.2 Nearest-Neighbor Methods
