@@ -23,7 +23,10 @@ We pick the coefficients β to minimize the residual sum of squares(RSS)<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20RSS(\beta)=%20(y-X\beta)^T(y-X\beta)"><br>
 Differentiating w.r.t. *β* we get the *normal equations*<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20X^T(y-X\beta)=0"><br>
-If X<sup>T</sup>X is nonsingular, then the unique solution is given by
+If X<sup>T</sup>X is nonsingular, then the unique solution is given by<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20\hat{\beta}=(X^TX)^{-1}X^Ty"><br>
+### 2.3.2 Nearest-Neighbor Methods
+Nearest-neighbor methods use those observations in the training set T closest in input space to x to form Y-hat . Specifically, the k-nearest neighbor fit for Y-hat is defined as follows:<br>
+x \in I
 
 
