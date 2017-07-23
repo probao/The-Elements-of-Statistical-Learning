@@ -40,4 +40,4 @@ seem that k-nearest-neighbor methods would be more appropriate for the
 mixture Scenario 2 described above, `while for Gaussian data the decision
 boundaries of k-nearest neighbors would be unnecessarily noisy.`<br>
 
-<font color=red>内容</font>
+p35
