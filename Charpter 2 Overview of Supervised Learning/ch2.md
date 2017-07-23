@@ -21,3 +21,9 @@ as an inner product<br>
 We pick the coefficients β to minimize the residual sum of squares(RSS)<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20RSS(\beta)=%20\sum_{i=1}^{N}(y_i-x_i^T\beta)^2"><br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20RSS(\beta)=%20(y-X\beta)^T(y-X\beta)"><br>
+Differentiating w.r.t. *β* we get the *normal equations*<br>
+<img src="http://latex.codecogs.com/gif.latexx?\%20X^T(y-X\beta)=0"><br>
+If X<sup>T</sup>X is nonsingular, then the unique solution is given by
+
+
+
