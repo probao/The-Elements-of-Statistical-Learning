@@ -25,8 +25,18 @@ Differentiating w.r.t. *β* we get the *normal equations*<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20X^T(y-X\beta)=0"><br>
 If X<sup>T</sup>X is nonsingular, then the unique solution is given by<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20\hat{\beta}=(X^TX)^{-1}X^Ty"><br>
+<font color=blue>Scenario 1</font>: The training data in each class were generated from bivariate
+Gaussian distributions with uncorrelated components and different
+means.<br>
+<font color=blue>Scenario 2</font>: The training data in each class came from a mixture of 10 low-
+variance Gaussian distributions, with individual means themselves
+distributed as Gaussian.<br>
 ### 2.3.2 Nearest-Neighbor Methods
 Nearest-neighbor methods use those observations in the training set T closest in input space to x to form Y-hat . Specifically, the k-nearest neighbor fit for Y-hat is defined as follows:<br>
-x |in I
-
+<img src="http://latex.codecogs.com/gif.latexx?\%20\hat{Y}(x)%20=\frac{1}{2}\sum_{x_i%20\in%20N_k(x)}y_i"><br>
+It is also clear that we cannot use sum-of-squared errors on the training
+set as a criterion for picking k, since we would always pick k = 1! It would
+seem that k-nearest-neighbor methods would be more appropriate for the
+mixture Scenario 2 described above, `while for Gaussian data the decision
+boundaries of k-nearest neighbors would be unnecessarily noisy.`<br>
 
