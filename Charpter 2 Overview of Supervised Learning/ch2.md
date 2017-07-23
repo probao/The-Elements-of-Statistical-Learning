@@ -27,6 +27,6 @@ If X<sup>T</sup>X is nonsingular, then the unique solution is given by<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20\hat{\beta}=(X^TX)^{-1}X^Ty"><br>
 ### 2.3.2 Nearest-Neighbor Methods
 Nearest-neighbor methods use those observations in the training set T closest in input space to x to form Y-hat . Specifically, the k-nearest neighbor fit for Y-hat is defined as follows:<br>
-x \in I
+x |in I
 
 
