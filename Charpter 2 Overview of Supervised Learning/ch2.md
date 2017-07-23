@@ -10,4 +10,9 @@ prediction tasks: `regression` when we predict quantitative outputs, and<br>
 *G*--qualitative outputs
 *x*<sub>*i*</sub>--the ith observed value of *X*<br>
 **X**--N x p matrix, N input p-vectors *x*<sub>*i*</sub>, *i*=1,2,...,N<br>
-p29
+## 2.3 Two Simple Approaches to Prediction: Least Squares and Nearest Neighbors
+### 2.3.1 Linear Models and Least Squares
+
+
+
+
