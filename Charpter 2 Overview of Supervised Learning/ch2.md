@@ -10,6 +10,7 @@ prediction tasks: `regression` when we predict quantitative outputs, and<br>
 *G*--qualitative outputs
 *x*<sub>*i*</sub>--the ith observed value of *X*<br>
 **X**--N x p matrix, N input p-vectors *x*<sub>*i*</sub>, *i*=1,2,...,N<br>
+Since all vectors are assumed to be column vectors, the *i*th row of **X** is x<sup>T</sup><sub>i</sub>, the vector transpose of *x*<sub>i<\sub>.
 ## 2.3 Two Simple Approaches to Prediction: Least Squares and Nearest Neighbors
 ### 2.3.1 Linear Models and Least Squares
 
