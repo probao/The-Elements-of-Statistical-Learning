@@ -39,6 +39,6 @@ set as a criterion for picking k, since we would always pick k = 1! It would
 seem that k-nearest-neighbor methods would be more appropriate for the
 mixture Scenario 2 described above, `while for Gaussian data the decision
 boundaries of k-nearest neighbors would be unnecessarily noisy.`<br>
-
+### 2.3.3 From Least Squares to Nearest Neighbors
 p35
 
