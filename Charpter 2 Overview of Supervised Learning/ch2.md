@@ -41,3 +41,4 @@ mixture Scenario 2 described above, `while for Gaussian data the decision
 boundaries of k-nearest neighbors would be unnecessarily noisy.`<br>
 
 p35
+
