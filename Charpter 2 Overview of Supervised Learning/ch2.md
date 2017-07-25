@@ -48,7 +48,7 @@ by k-nearest neighbors.<br>
 * Local regression fits linear models by locally weighted least squares, rather than fitting constants locally.
 * Linear models fit to a basis expansion of the original inputs allow arbitrarily complex models.
 * Projection pursuit and neural network models consist of sums of non-linearly transformed linear models.
-
+### 2.4 Statistical Decision Theory
 
 
 
