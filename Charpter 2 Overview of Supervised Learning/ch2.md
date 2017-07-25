@@ -50,5 +50,5 @@ by k-nearest neighbors.<br>
 * Projection pursuit and neural network models consist of sums of non-linearly transformed linear models.
 ### 2.4 Statistical Decision Theory
 
-
+p37
 
