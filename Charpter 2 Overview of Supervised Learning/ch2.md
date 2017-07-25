@@ -40,5 +40,15 @@ seem that k-nearest-neighbor methods would be more appropriate for the
 mixture Scenario 2 described above, `while for Gaussian data the decision
 boundaries of k-nearest neighbors would be unnecessarily noisy.`<br>
 ### 2.3.3 From Least Squares to Nearest Neighbors
-p35
+The following list describes some ways in which these simple procedures have been enhanced:<br>
+* Kernel methods use weights that decrease smoothly to zero with dis-
+tance from the target point, rather than the effective 0/1 weights used
+by k-nearest neighbors.<br>
+* In high-dimensional spaces the distance kernels are modified to emphasize some variable more than others.
+* Local regression fits linear models by locally weighted least squares, rather than fitting constants locally.
+* Linear models fit to a basis expansion of the original inputs allow arbitrarily complex models.
+* Projection pursuit and neural network models consist of sums of non-linearly transformed linear models.
+
+
+
 
