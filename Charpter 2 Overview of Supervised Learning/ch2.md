@@ -51,14 +51,14 @@ by k-nearest neighbors.<br>
 ### 2.4 Statistical Decision Theory
 Statistical Decision Theory requires a loss function L(Y, f(X)) for penalizing errors in prediction, and by far the most
 common and convenient is squared error loss:<br>
-<img src="http://latex.codecogs.com/gif.latexx?\%20\http://latex.codecogs.com/gif.latexx?\%20\L(Y,%20f(x))=(Y-f(x))^2"><br>
+<img src="http://latex.codecogs.com/gif.latexx?\%20\L(Y,%20f(x))=(Y-f(x))^2"><br>
 This leads us to a criterion for choosing f,<br>
-<img src="http://latex.codecogs.com/gif.latexx?\%20\http://latex.codecogs.com/gif.latexx?\%20EPE(f)=E(Y-f(x))^2=\int{[y-f(x)]^2Pr(dx,dy)}"><br>
+<img src="http://latex.codecogs.com/gif.latexx?\%20EPE(f)=E(Y-f(x))^2=\int{[y-f(x)]^2Pr(dx,dy)}"><br>
 By conditioning on X, we can write EPE as:<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20EPE(f)=E(Y-f(x))^2=E_XE_Y_|_X([Y-f(x)]^2|X)"><br>
 and we see that it suffices to minimize EPE pointwise:<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20f(x)=argmin_cE_Y_|_X([Y-c]^2|X=x)"><br>
-The solution is
+The solution is<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20f(x)=E(Y|X=x)"><br>
 
 
