@@ -60,9 +60,11 @@ and we see that it suffices to minimize EPE pointwise:<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20f(x)=argmin_cE_Y_|_X([Y-c]^2|X=x)"><br>
 The solution is<br>
 <img src="http://latex.codecogs.com/gif.latexx?\%20f(x)=E(Y|X=x)"><br>
+So both k-nearest neighbors and least squares end up approximating conditional expectations by averages. But they differ dramatically in terms of model assumptions:<br>
+* Least squares assumes f(x) is well approximated by a globally linear function.<br>
+* k-nearest neighbors assumes f(x) is well approximated by a locally constant function.<br>
 
-
-
+p39
 
 
 
