@@ -63,9 +63,8 @@ The solution is<br>
 So both k-nearest neighbors and least squares end up approximating conditional expectations by averages. But they differ dramatically in terms of model assumptions:<br>
 * Least squares assumes f(x) is well approximated by a globally linear function.<br>
 * k-nearest neighbors assumes f(x) is well approximated by a locally constant function.<br>
-
-p39
-
+### 2.5 Local Methods in High Dimensions
+p41
 
 
 
